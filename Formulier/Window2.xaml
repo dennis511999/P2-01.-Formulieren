@@ -1,0 +1,16 @@
+﻿<Window x:Class="Formulier.Window2"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Formulier"
+        mc:Ignorable="d"
+        Title="Window2" Height="350" Width="525">
+    <Grid>
+        <Image Source="C:\Users\Dennis\Desktop\Projecten\Periode 2\Formulier\Formulier\Images and Souds\Big Shaq.jpg" Margin="10,10,10,67"/>
+        <Button x:Name="ButtonBack" Content="Back" HorizontalAlignment="Left" Margin="224,274,0,0" VerticalAlignment="Top" Width="75" Click="ButtonBack_Click"/>
+        <Button x:Name="ButtonBoomSound" Content="Boom" HorizontalAlignment="Left" Margin="423,10,0,0" VerticalAlignment="Top" Width="84" Click="ButtonBoomSound_Click"/>
+        <Button x:Name="ButtonSoundskrrrr" Content="SKRRRR" HorizontalAlignment="Left" Margin="423,44,0,0" VerticalAlignment="Top" Width="84" Click="ButtonSoundskrrrr_Click"/>
+        <Button x:Name ="ButtonTheThingGoes" Content="TheThingGoes" HorizontalAlignment="Left" Margin="423,79,0,0" VerticalAlignment="Top" Width="84" Click="ButtonTheThingGoes_Click"/>
+    </Grid>
+</Window>

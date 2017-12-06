@@ -12,6 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using System.Media;
 
 namespace Formulier
 {
@@ -23,7 +24,8 @@ namespace Formulier
         public MainWindow()
         {
             InitializeComponent();
-        }
+           
+        }          
 
         private void Button1_Click(object sender, RoutedEventArgs e)
         {
@@ -38,24 +40,28 @@ namespace Formulier
             }
         }
 
-        private void Button2_click(object sender, RoutedEventArgs e)
+        private void ButtonToWindow1_Click(object sender, RoutedEventArgs e)
         {
-
-
+            Window1 win1 = new Window1();
+            win1.Show();
+            this.Close();
         }
 
-        private void Button3_click(object sender, RoutedEventArgs e)
+        private void ButtonToWindow2_Click(object sender, RoutedEventArgs e)
         {
-
-
-        }
-        private void Button4_click(object sender, RoutedEventArgs e)
-        {
-
-
+            Window2 win2 = new Window2();
+            win2.Show();
+            this.Close();
         }
 
-
+        private void ButtonToWindow3_Click(object sender, RoutedEventArgs e)
+        {
+            Window3 win3 = new Window3();
+            win3.Show();
+            this.Close();
+        }
     }
+
+   
 }
 
