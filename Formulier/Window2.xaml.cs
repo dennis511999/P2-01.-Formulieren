@@ -27,19 +27,19 @@ namespace Formulier
 
         public void playBoomSound()
         {
-            SoundPlayer simpleSound = new SoundPlayer(@"C:\Users\Dennis\Desktop\Projecten\Periode 2\Formulier\Formulier\Images and Souds\boom.wav");
-            simpleSound.Play();
+            SoundPlayer BoomSound = new SoundPlayer(@"C:\Users\Dennis\Desktop\Projecten\Periode 2\Formulier\Formulier\Images and Souds\Sounds\Big Shaq\boom.wav");
+            BoomSound.Play();
         }
 
         public void playSkrrrSound()
         {
-            SoundPlayer skrrrSound = new SoundPlayer(@"C:\Users\Dennis\Desktop\Projecten\Periode 2\Formulier\Formulier\Images and Souds\skrrrrrr_pop_pop_hq.wav");
+            SoundPlayer skrrrSound = new SoundPlayer(@"C:\Users\Dennis\Desktop\Projecten\Periode 2\Formulier\Formulier\Images and Souds\Sounds\Big Shaq\skrrrrrr_pop_pop_hq.wav");
             skrrrSound.Play();
         }
 
         public void playTheThingGoes()
         {
-            SoundPlayer theThingGoes = new SoundPlayer(@"C:\Users\Dennis\Desktop\Projecten\Periode 2\Formulier\Formulier\Images and Souds\the_ting_go_skrra.wav");
+            SoundPlayer theThingGoes = new SoundPlayer(@"C:\Users\Dennis\Desktop\Projecten\Periode 2\Formulier\Formulier\Images and Souds\Sounds\Big Shaq\the_ting_go_skrra.wav");
             theThingGoes.Play();
         }
         private void ButtonBack_Click(object sender, RoutedEventArgs e)

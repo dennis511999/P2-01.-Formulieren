@@ -7,7 +7,7 @@
         mc:Ignorable="d"
         Title="Window2" Height="350" Width="525">
     <Grid>
-        <Image Source="C:\Users\Dennis\Desktop\Projecten\Periode 2\Formulier\Formulier\Images and Souds\Big Shaq.jpg" Margin="10,10,10,67"/>
+        <Image Source="C:\Users\Dennis\Desktop\Projecten\Periode 2\Formulier\Formulier\Images and Souds\Images\Big Shaq.jpg" Margin="10,10,10,67"/>
         <Button x:Name="ButtonBack" Content="Back" HorizontalAlignment="Left" Margin="224,274,0,0" VerticalAlignment="Top" Width="75" Click="ButtonBack_Click"/>
         <Button x:Name="ButtonBoomSound" Content="Boom" HorizontalAlignment="Left" Margin="423,10,0,0" VerticalAlignment="Top" Width="84" Click="ButtonBoomSound_Click"/>
         <Button x:Name="ButtonSoundskrrrr" Content="SKRRRR" HorizontalAlignment="Left" Margin="423,44,0,0" VerticalAlignment="Top" Width="84" Click="ButtonSoundskrrrr_Click"/>

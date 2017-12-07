@@ -27,22 +27,77 @@ namespace Formulier
 
         public void playCryCar()
         {
-            SoundPlayer simpleSound = new SoundPlayer(@"C:\Users\Dennis\Desktop\Projecten\Periode 2\Formulier\Formulier\Images and Souds\Girl_cries_like_a_supercar_original_.wav");
+            SoundPlayer simpleSound = new SoundPlayer(@"C:\Users\Dennis\Desktop\Projecten\Periode 2\Formulier\Formulier\Images and Souds\Sounds\Car\Girl_cries_like_a_supercar_original_.wav");
             simpleSound.Play();
         }
 
-       
-
-        private void PlaySound_Click(object sender, RoutedEventArgs e)
+        public void playCarAlarm()
         {
-            this.playCryCar();
+            SoundPlayer CarAlarm = new SoundPlayer(@"C:\Users\Dennis\Desktop\Projecten\Periode 2\Formulier\Formulier\Images and Souds\Sounds\Car\Car+Alarm.wav");
+            CarAlarm.Play();
         }
+
+        public void playCarDoor()
+        {
+            SoundPlayer CarDoor = new SoundPlayer(@"C:\Users\Dennis\Desktop\Projecten\Periode 2\Formulier\Formulier\Images and Souds\Sounds\Car\car+door.wav");
+            CarDoor.Play();
+        }
+       
+        public void playCarStart()
+        {
+            SoundPlayer CarStart = new SoundPlayer(@"C:\Users\Dennis\Desktop\Projecten\Periode 2\Formulier\Formulier\Images and Souds\Sounds\Car\carstartgarage.wav");
+            CarStart.Play();
+        }
+
+        public void playCarDrive()
+        {
+            SoundPlayer CarDrive = new SoundPlayer(@"C:\Users\Dennis\Desktop\Projecten\Periode 2\Formulier\Formulier\Images and Souds\Sounds\Car\CAR+Peels+Out.wav");
+            CarDrive.Play();
+        }
+
+        public void playCarHorn()
+        {
+            SoundPlayer CarHorn = new SoundPlayer(@"C:\Users\Dennis\Desktop\Projecten\Periode 2\Formulier\Formulier\Images and Souds\Sounds\Car\car+horn+x.wav");
+            CarHorn.Play();
+        }
+
+        
 
         private void Back_Click(object sender, RoutedEventArgs e)
         {
             MainWindow mainWindow = new MainWindow();
             mainWindow.Show();
             this.Close();
+        }
+
+        private void PlaySound_Click(object sender, RoutedEventArgs e)
+        {
+            this.playCryCar();
+        }
+
+        private void CarAlarm_Click(object sender, RoutedEventArgs e)
+        {
+            this.playCarAlarm();
+        }
+
+        private void CarDoors_Click(object sender, RoutedEventArgs e)
+        {
+            this.playCarDoor();
+        }
+
+        private void CarStart_Click(object sender, RoutedEventArgs e)
+        {
+            this.playCarStart();
+        }
+
+        private void CarDrive_Click(object sender, RoutedEventArgs e)
+        {
+            this.playCarDrive();
+        }
+
+        private void CarHorn_Click(object sender, RoutedEventArgs e)
+        {
+            this.playCarHorn();
         }
     }
 }

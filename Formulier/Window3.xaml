@@ -7,6 +7,9 @@
         mc:Ignorable="d"
         Title="Window3" Height="350" Width="525">
     <Grid>
-        
+        <Button x:Name="Back" Content="Back" HorizontalAlignment="Left" Margin="432,294,0,0" VerticalAlignment="Top" Width="75" Click="Back_Click"/>
+        <Button x:Name="GoatClip" Content="Play Goat" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="75" Height="25" Click="GoatClip_Click"></Button>
+        <Button x:Name="btnCloseMedia" Content="Close" HorizontalAlignment="Left" Margin="211,294,0,0" VerticalAlignment="Top" Width="75" Click="btnCloseMedia_Click"/>
+        <MediaElement Name="Goat" LoadedBehavior="Manual" BufferingStarted="GoatClip_Click" Source="C:\Users\Dennis\Desktop\Projecten\Periode 2\Formulier\Formulier\Images and Souds\Sounds\Memes\GoatScream.mp4" Visibility="Hidden" Margin="0,10,0,30"></MediaElement>
     </Grid>
 </Window>

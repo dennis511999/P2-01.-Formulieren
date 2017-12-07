@@ -115,26 +115,34 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Images and Souds\audi_a5_gtr_by_stefanmarius.jpg">
+    <Resource Include="Images and Souds\Images\audi_a5_gtr_by_stefanmarius.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Resource>
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Images and Souds\Big Shaq.jpg">
+    <Resource Include="Images and Souds\Images\Big Shaq.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Resource>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Images and Souds\boom.wav">
+    <Content Include="Images and Souds\Sounds\Big Shaq\boom.wav">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="Images and Souds\Girl_cries_like_a_supercar_original_.wav">
+    <Content Include="Images and Souds\Sounds\Car\Car+Alarm.wav" />
+    <Content Include="Images and Souds\Sounds\Car\car+door.wav" />
+    <Content Include="Images and Souds\Sounds\Car\car+horn+x.wav" />
+    <Content Include="Images and Souds\Sounds\Car\CAR+Peels+Out.wav" />
+    <Content Include="Images and Souds\Sounds\Car\carstartgarage.wav" />
+    <Content Include="Images and Souds\Sounds\Car\Girl_cries_like_a_supercar_original_.wav">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="Images and Souds\skrrrrrr_pop_pop_hq.wav">
+    <Content Include="Images and Souds\Sounds\Big Shaq\skrrrrrr_pop_pop_hq.wav">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="Images and Souds\the_ting_go_skrra.wav">
+    <Content Include="Images and Souds\Sounds\Big Shaq\the_ting_go_skrra.wav">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images and Souds\Sounds\Memes\GoatScream.mp4">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
   </ItemGroup>

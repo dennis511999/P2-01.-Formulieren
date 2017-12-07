@@ -40,21 +40,21 @@ namespace Formulier
             }
         }
 
-        private void ButtonToWindow1_Click(object sender, RoutedEventArgs e)
+        private void ButtonToRace_Click(object sender, RoutedEventArgs e)
         {
             Window1 win1 = new Window1();
             win1.Show();
             this.Close();
         }
 
-        private void ButtonToWindow2_Click(object sender, RoutedEventArgs e)
+        private void ButtonToShaq_Click(object sender, RoutedEventArgs e)
         {
             Window2 win2 = new Window2();
             win2.Show();
             this.Close();
         }
 
-        private void ButtonToWindow3_Click(object sender, RoutedEventArgs e)
+        private void ButtonToMemes_Click(object sender, RoutedEventArgs e)
         {
             Window3 win3 = new Window3();
             win3.Show();

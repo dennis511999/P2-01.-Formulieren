@@ -22,6 +22,29 @@ namespace Formulier
         public Window3()
         {
             InitializeComponent();
+            
+        }
+
+        
+
+        private void Back_Click(object sender, RoutedEventArgs e)
+        {
+            MainWindow mainWindow = new MainWindow();
+            mainWindow.Show();
+            this.Close();
+        }
+
+        private void GoatClip_Click(object sender, RoutedEventArgs e)
+        {
+            Goat.Visibility = Visibility.Visible;
+            Goat.Play();
+
+        }
+
+        private void btnCloseMedia_Click(object sender, RoutedEventArgs e)
+        {
+            Goat.Stop();
+            Goat.Visibility = Visibility.Hidden;
         }
     }
 }

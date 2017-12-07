@@ -8,17 +8,16 @@
         Title="MainWindow" Height="350" Width="525">
     <Grid>
 
-        <Button Height="23" HorizontalAlignment="Right" Margin="0,93,404,0" 
-         x:Name="Button1" VerticalAlignment="Top" 
-         Width="103" Click="Button1_Click" Content="Enter"/>
-        <TextBox HorizontalAlignment="Left" Height="44" Margin="10,33,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="103" Name="TextBox1" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" />
+        <Button Height="23" HorizontalAlignment="Right" Margin="0,82,394,0" 
+         x:Name="Button1" VerticalAlignment="Top" Click="Button1_Click" Content="Enter" Width="105"/>
+        <TextBox HorizontalAlignment="Left" Height="44" Margin="18,33,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="105" Name="TextBox1" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" />
         <ListBox HorizontalAlignment="Left" Height="37" Margin="207,153,0,0" VerticalAlignment="Top" Width="115" Name="ListBox1" HorizontalContentAlignment="Center" />
-        <TextBox HorizontalAlignment="Left" Height="23" Margin="10,10,0,0" TextWrapping="Wrap" Text="Enter Your Name" VerticalAlignment="Top" Width="103" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="18,10,0,0" TextWrapping="Wrap" Text="Enter Your Name" VerticalAlignment="Top" Width="105" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
         <TextBox HorizontalAlignment="Left" Height="23" Margin="207,125,0,0" TextWrapping="Wrap" Text="Hello" VerticalAlignment="Top" Width="115" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" OpacityMask="Black" SelectionBrush="#FF005FAA" Background="White"/>
 
-        <Button x:Name="ButtonToWindow1" Content="Race" HorizontalAlignment="Left" Margin="10,256,0,0" VerticalAlignment="Top" Width="75" Click="ButtonToWindow1_Click"/>
-        <Button x:Name="ButtonToWindow2" Content="Shaq" HorizontalAlignment="Left" Margin="227,256,0,0" VerticalAlignment="Top" Width="75" Click="ButtonToWindow2_Click"/>
-        <Button x:Name="ButtonToWindow3" Content="Button" HorizontalAlignment="Left" Margin="432,256,0,0" VerticalAlignment="Top" Width="75" Click="ButtonToWindow3_Click"/>
-        
+        <Button x:Name="ButtonToRace" Content="Race" HorizontalAlignment="Left" Margin="18,256,0,0" VerticalAlignment="Top" Width="75" Click="ButtonToRace_Click"/>
+        <Button x:Name="ButtonToShaq" Content="Shaq" HorizontalAlignment="Left" Margin="227,256,0,0" VerticalAlignment="Top" Width="75" Click="ButtonToShaq_Click"/>
+        <Button x:Name="ButtonToMemes" Content="Memes" HorizontalAlignment="Left" Margin="423,256,0,0" VerticalAlignment="Top" Width="75" Click="ButtonToMemes_Click"/>
+
     </Grid>
 </Window>

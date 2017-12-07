@@ -7,8 +7,13 @@
         mc:Ignorable="d"
         Title="Window1" Height="350" Width="525">
     <Grid>
-        <Image Source="C:\Users\Dennis\Desktop\Projecten\Periode 2\Formulier\Formulier\Images and Souds\audi_a5_gtr_by_stefanmarius.jpg" Margin="10,10,23,74"/>
+        <Image Source="C:\Users\Dennis\Desktop\Projecten\Periode 2\Formulier\Formulier\Images and Souds\Images\audi_a5_gtr_by_stefanmarius.jpg" Margin="10,10,23,74"/>
         <Button x:Name="Back" Content="Back" HorizontalAlignment="Left" Margin="219,274,0,0" VerticalAlignment="Top" Width="75" Click="Back_Click" />
-        <Button x:Name="PlaySound" Content="Play Sound" HorizontalAlignment="Left" Margin="219,249,0,0" VerticalAlignment="Top" Width="75" Click="PlaySound_Click"/>
+        <Button x:Name="PlaySound" Content="Funny" HorizontalAlignment="Left" Margin="219,249,0,0" VerticalAlignment="Top" Width="75" Click="PlaySound_Click"/>
+        <Button x:Name="CarAlarm"  Content="Alarm" HorizontalAlignment="Left" Margin="10,259,0,0" VerticalAlignment="Top" Width="75" Click="CarAlarm_Click"/>
+        <Button x:Name="CarDoors" Content="Doors" HorizontalAlignment="Left" Margin="10,289,0,0" VerticalAlignment="Top" Width="75" Click="CarDoors_Click"/>
+        <Button x:Name="CarStart" Content="Start" HorizontalAlignment="Left" Margin="99,259,0,0" VerticalAlignment="Top" Width="75" Click="CarStart_Click"/>
+        <Button x:Name="CarDrive" Content="Drive" HorizontalAlignment="Left" Margin="99,289,0,0" VerticalAlignment="Top" Width="75" Click="CarDrive_Click"/>
+        <Button x:Name="CarHorn" Content="Horn" HorizontalAlignment="Left" Margin="336,259,0,0" VerticalAlignment="Top" Width="75" Click="CarHorn_Click"/>
     </Grid>
 </Window>
