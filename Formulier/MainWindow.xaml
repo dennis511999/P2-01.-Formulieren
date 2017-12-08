@@ -8,16 +8,19 @@
         Title="MainWindow" Height="350" Width="525">
     <Grid>
 
-        <Button Height="23" HorizontalAlignment="Right" Margin="0,82,394,0" 
+        <Button x:Name="ButtonToRace" Content="Race" HorizontalAlignment="Left" Margin="20,256,0,0" VerticalAlignment="Top" Width="75" Click="ButtonToRace_Click"/>
+        <Button x:Name="ButtonToShaq" Content="Shaq" HorizontalAlignment="Left" Margin="220,256,0,0" VerticalAlignment="Top" Width="75" Click="ButtonToShaq_Click"/>
+        <Button x:Name="ButtonToMemes" Content="Memes" HorizontalAlignment="Left" Margin="420,256,0,0" VerticalAlignment="Top" Width="75" Click="ButtonToMemes_Click"/>
+        <StackPanel HorizontalAlignment="Left" Height="100" Margin="10,10,0,0" VerticalAlignment="Top" Width="100">
+            <TextBox HorizontalAlignment="Left" Height="23" Margin="0,0,-5,0" TextWrapping="Wrap" Text="Enter Your Name" VerticalAlignment="Top" Width="105" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+            <TextBox HorizontalAlignment="Left" Height="44" Margin="0,0,-5,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="105" x:Name="TextBox1" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" />
+            <Button Height="23" HorizontalAlignment="Right" Margin="0,0,-5,0" 
          x:Name="Button1" VerticalAlignment="Top" Click="Button1_Click" Content="Enter" Width="105"/>
-        <TextBox HorizontalAlignment="Left" Height="44" Margin="18,33,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="105" Name="TextBox1" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" />
-        <ListBox HorizontalAlignment="Left" Height="37" Margin="207,153,0,0" VerticalAlignment="Top" Width="115" Name="ListBox1" HorizontalContentAlignment="Center" />
-        <TextBox HorizontalAlignment="Left" Height="23" Margin="18,10,0,0" TextWrapping="Wrap" Text="Enter Your Name" VerticalAlignment="Top" Width="105" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
-        <TextBox HorizontalAlignment="Left" Height="23" Margin="207,125,0,0" TextWrapping="Wrap" Text="Hello" VerticalAlignment="Top" Width="115" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" OpacityMask="Black" SelectionBrush="#FF005FAA" Background="White"/>
-
-        <Button x:Name="ButtonToRace" Content="Race" HorizontalAlignment="Left" Margin="18,256,0,0" VerticalAlignment="Top" Width="75" Click="ButtonToRace_Click"/>
-        <Button x:Name="ButtonToShaq" Content="Shaq" HorizontalAlignment="Left" Margin="227,256,0,0" VerticalAlignment="Top" Width="75" Click="ButtonToShaq_Click"/>
-        <Button x:Name="ButtonToMemes" Content="Memes" HorizontalAlignment="Left" Margin="423,256,0,0" VerticalAlignment="Top" Width="75" Click="ButtonToMemes_Click"/>
+        </StackPanel>
+        <StackPanel HorizontalAlignment="Left" Height="60" Margin="200,120,0,0" VerticalAlignment="Top" Width="115">
+            <TextBox HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" Text="Hello" VerticalAlignment="Top" Width="115" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" OpacityMask="Black" SelectionBrush="#FF005FAA" Background="White"/>
+            <ListBox HorizontalAlignment="Left" Height="37" VerticalAlignment="Top" Width="115" x:Name="ListBox1" HorizontalContentAlignment="Center" />
+        </StackPanel>
 
     </Grid>
 </Window>

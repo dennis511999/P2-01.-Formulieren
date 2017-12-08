@@ -142,6 +142,9 @@
     <Content Include="Images and Souds\Sounds\Big Shaq\the_ting_go_skrra.wav">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
+    <Content Include="Images and Souds\Sounds\Memes\Trump.mp4" />
+    <Content Include="Images and Souds\Sounds\Memes\Lion King.mp4" />
+    <Content Include="Images and Souds\Sounds\Memes\Spongebob.mp4" />
     <Content Include="Images and Souds\Sounds\Memes\GoatScream.mp4">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>

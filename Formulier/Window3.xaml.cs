@@ -27,24 +27,58 @@ namespace Formulier
 
         
 
-        private void Back_Click(object sender, RoutedEventArgs e)
+        private void btnBack_Click(object sender, RoutedEventArgs e)
         {
             MainWindow mainWindow = new MainWindow();
             mainWindow.Show();
             this.Close();
         }
 
-        private void GoatClip_Click(object sender, RoutedEventArgs e)
+        private void btnGoatClip_Click(object sender, RoutedEventArgs e)
         {
-            Goat.Visibility = Visibility.Visible;
-            Goat.Play();
+            btnCloseMedia.Visibility = Visibility.Visible;
+            metGoat.Visibility = Visibility.Visible;
+            metGoat.Play();
 
         }
 
         private void btnCloseMedia_Click(object sender, RoutedEventArgs e)
         {
-            Goat.Stop();
-            Goat.Visibility = Visibility.Hidden;
+            btnCloseMedia.Visibility = Visibility.Hidden;
+
+            metGoat.Stop();
+            metGoat.Visibility = Visibility.Hidden;
+
+            metSpongebob.Stop();
+            metSpongebob.Visibility = Visibility.Hidden;
+
+            metLionKing.Stop();
+            metLionKing.Visibility = Visibility.Hidden;
+
+            metTrump.Stop();
+            metTrump.Visibility = Visibility.Hidden;            
+        }
+
+        private void btnSpongebob_Click(object sender, RoutedEventArgs e)
+        {
+            btnCloseMedia.Visibility = Visibility.Visible;
+            metSpongebob.Visibility = Visibility.Visible;
+            metSpongebob.Play();
+        }
+
+        private void btnLionKingClip_Click(object sender, RoutedEventArgs e)
+        {
+            btnCloseMedia.Visibility = Visibility.Visible;
+            metLionKing.Visibility = Visibility.Visible;
+            metLionKing.Play();
+        }
+
+        private void btnTrumpClip_Click(object sender, RoutedEventArgs e)
+        {
+            btnCloseMedia.Visibility = Visibility.Visible;
+            metTrump.Visibility = Visibility.Visible;
+            metTrump.Play();
+            
         }
     }
 }
